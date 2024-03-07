@@ -64,14 +64,14 @@ void display() {
 }
 
 
-    
-
-
-
-    
 int main()
 {
-    std::cout << "Hello World!\n";
+    input(); //memanggil prosedur untuk menginput data
+    bubblesortArray(); //memanggil prosedur bubblesort untuk proses mengurutkan data
+    display(); //memanggil prosedur yang telah diurutkan
+    system("pause");
+
+    return 0;
 }
 
 
